@@ -2,7 +2,7 @@
 
 An interactive Tableau dashboard designed to analyze temporal sales patterns, payment method compositions, regional performance, and product category metrics across an Amazon sales dataset (January 2022 – December 2023).
 
-![Amazon Sales Dashboard](images/dashboard.png)
+![Amazon Sales Dashboard](images/dashboard.jpeg)
 
 ## 📁 Dataset
 
@@ -40,14 +40,14 @@ The dashboard follows a **progressive disclosure** hierarchy—moving from macro
 ## 🎨 Key Design Decisions
 
 ### Time-Series Design
-![Revenue Trend Over Time](images/revenue_trend.png)
+![Revenue Trend Over Time](images/revenue_trend.jpeg)
 
 * **Continuous Time Axis:** Preserves chronological flow and uniform spacing between months.
 * **Smoothing & Benchmarks:** A 3-month moving average reduces short-term noise, while a horizontal average reference line provides an immediate baseline for above/below-average months.
 * **Selective Annotations:** Highlights critical anomalies, such as the peak revenue in **January 2023 (\~\$1.464M)** and the sharp drop in **February 2023**.
 
 ### Composition & Proportion
-![Monthly Payment Method Mix](images/payment_method_mix.png)
+![Monthly Payment Method Mix](images/payment_method_mix.jpeg)
 
 * **100% Stacked Bar Chart:** Isolates pure compositional shifts in payment methods across quarters (Q1–Q4) without distortion from total revenue volume changes.
 * **Consistent Ordering & Palette:** Uses a sequential orange-to-brown palette ordered consistently from darkest (Wallet) to lightest (Cash on Delivery) to aid visual tracking.
